@@ -7,6 +7,18 @@ edition = "2021"
 name = "dumbgpt"
 path = "src/dumbgpt.rs"
 
+[[bin]]
+name = "asciiart"
+path = "src/asciiart.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "project-1"
+path = "src/project-1.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
